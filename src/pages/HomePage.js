@@ -333,7 +333,7 @@ const HomePage = () => {
                   {/* Image Frame */}
                   <div className="pb-[125%] relative rounded-xl overflow-hidden">
                     <img
-                      src="/images/fotovia.jpg"
+                      src="/images/fotoviaa.jpg"
                       alt="Portrait"
                       className="absolute inset-0 w-full h-full object-cover transition-all duration-700 hover:scale-105"
                     />

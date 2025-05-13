@@ -144,7 +144,7 @@ const AboutPage = () => {
               id="profile-image"
             >
               <img
-                src="/images/fotovia.jpg"
+                src="/images/fotoviaaa.jpg"
                 alt="Portrait"
                 className="w-full h-full object-cover"
               />
