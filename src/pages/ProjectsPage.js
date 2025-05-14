@@ -119,6 +119,18 @@ const ProjectsPage = () => {
     },
     {
       id: 4,
+      title: "ChefJuna - Recipe Mobile App",
+      description:
+        "A mobile app for exploring healthy recipes with a modern interface, featuring search, calorie info, and price estimates.",
+      image: "/images/poster.jpg",
+      technologies: ["Kotlin", "Android Studio"],
+      tags: ["Mobile App", "Android"],
+      link: "https://github.com/furstinvia/Chef-Juna-RecipeApp",
+      detailed:
+        "I built ChefJuna, a Kotlin-based Android app for easy recipe discovery with search, ingredient details, and nutrition estimates. It features a clean pastel UI, smooth navigation, and responsive design, highlighting my skills in mobile UI/UX and user-focused development.",
+    },
+    {
+      id: 5,
       title: "Website Soko Financial",
       description:
         "I developed the Finance Calculator for the Soko Financial website, translating Figma designs into responsive, functional web pages using Laravel.",
@@ -130,7 +142,7 @@ const ProjectsPage = () => {
         "As the Frontend Developer, I built the Finance Calculator for the Soko Financial website, including core pages like Dashboard, Budget Input, and PDF Export. I implemented dynamic forms and real-time calculations for a smooth user experience, using Laravel Blade for performance and responsiveness across devices. This tool helps users track and compare finances, simplifying budgeting goals.",
     },
     {
-      id: 5,
+      id: 6,
       title: "Powerpuff Recipe App",
       description:
         "A fullstack web app built with Next.js and TypeScript, Powerpuff Recipe allows users to explore, save, and manage cooking recipes with a dynamic, responsive interface.",
