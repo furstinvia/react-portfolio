@@ -1,3 +1,4 @@
+
 // src/pages/HomePage.js - Update untuk section banner
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
@@ -325,18 +326,21 @@ const HomePage = () => {
               </div>
             </div>
 
-            {/* Foto bagian kanan - Dengan Styling yang Lebih Menarik */}
-            <div className="md:w-2/5 relative">
-              <div className="max-w-md mx-auto">
+            {/* Foto bagian kanan - Dengan Styling yang Dioptimalkan untuk Mobile */}
+            <div className="md:w-2/5 relative w-full px-4">
+              <div className="mx-auto max-w-xs md:max-w-md">
                 {/* Card-like Frame with Shadows */}
                 <div className="relative rounded-2xl overflow-hidden bg-white p-2 shadow-[0_20px_50px_rgba(244,114,182,0.2)]">
-                  {/* Image Frame */}
-                  <div className="pb-[125%] relative rounded-xl overflow-hidden">
-                    <img
-                      src="/images/fotoviaa.jpg"
-                      alt="Portrait"
-                      className="absolute inset-0 w-full h-full object-cover transition-all duration-700 hover:scale-105"
-                    />
+                  {/* Image Frame - Modified for better mobile display */}
+                  <div className="relative rounded-xl overflow-hidden">
+                    {/* Fixed height for mobile, aspect ratio for larger screens */}
+                    <div className="h-80 md:h-auto md:pb-[125%] relative">
+                      <img
+                        src="/images/fotoviaa.jpg"
+                        alt="Portrait"
+                        className="absolute inset-0 w-full h-full object-cover transition-all duration-700 hover:scale-105"
+                      />
+                    </div>
 
                     {/* Overlay Gradient at Bottom */}
                     <div className="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-black/20 to-transparent"></div>
@@ -363,7 +367,7 @@ const HomePage = () => {
                 <div className="absolute -top-3 -left-3 h-16 w-16 bg-gradient-to-tr from-rose-300 to-rose-200 rounded-full -z-10 opacity-70"></div>
 
                 {/* Vertical Dots */}
-                <div className="absolute top-1/2 transform -translate-y-1/2 -right-5 flex flex-col gap-2">
+                <div className="absolute top-1/2 transform -translate-y-1/2 -right-5 hidden md:flex flex-col gap-2">
                   <div className="h-2 w-2 bg-rose-500 rounded-full"></div>
                   <div className="h-2 w-2 bg-rose-400 rounded-full"></div>
                   <div className="h-2 w-2 bg-rose-300 rounded-full"></div>
@@ -468,7 +472,7 @@ const HomePage = () => {
               {/* Number Counter */}
               <div className="relative">
                 <span className="block text-5xl font-bold text-rose-800 mb-2 font-serif counter-anim">
-                  3+
+                  5+
                 </span>
                 <span className="text-gray-600 font-medium">
                   Projects Completed

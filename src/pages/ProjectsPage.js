@@ -377,10 +377,10 @@ const ProjectsPage = () => {
           onClick={closeProjectDetails}
         >
           <div
-            className="bg-white rounded-xl max-w-4xl w-full max-h-[90vh] overflow-hidden shadow-2xl"
+            className="bg-white rounded-xl max-w-4xl w-full max-h-[90vh] flex flex-col overflow-hidden shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="relative h-80 overflow-hidden">
+            <div className="relative h-80 flex-shrink-0 overflow-hidden">
               <img
                 src={selectedProject.image}
                 alt={selectedProject.title}
@@ -412,7 +412,7 @@ const ProjectsPage = () => {
               </button>
             </div>
 
-            <div className="p-8">
+            <div className="p-8 overflow-y-auto flex-grow">
               <div className="mb-8">
                 <h3 className="text-xl font-semibold text-rose-800 mb-3 flex items-center">
                   <Layout size={18} className="mr-2 text-rose-500" />
