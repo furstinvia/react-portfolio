@@ -91,7 +91,7 @@ const ProjectsPage = () => {
       tags: ["web app", "fullstack"],
       link: "https://github.com/furstinvia/PBKK-Laravel-Project/tree/main/tugas5",
       detailed:
-        "I built a web-based IKEA retail system with cashier and admin dashboards to manage products, orders, and inventory. Using Laravel, Bootstrap, and MySQL, I implemented secure login, CRUD operations, and role-based access. This project showcases my skills in building responsive, user-friendly systems with solid backend logic.",
+        "I built a web-based IKEA system with cashier and admin dashboards to manage products and orders. Using Laravel, Bootstrap, and MySQL, I implemented secure login, CRUD, and role-based access, showcasing my skills in responsive, user-focused web systems.",
     },
     {
       id: 2,
@@ -103,7 +103,7 @@ const ProjectsPage = () => {
       tags: ["web app", "fullstack", "ticketing system"],
       link: "https://github.com/furstinvia/PBKK-Express.git",
       detailed:
-        "I built a movie ticket booking platform using Vue.js and Express.js, allowing users to explore films and buy tickets through a responsive UI. It includes an admin dashboard to manage movies and bookings. Key features include genre filtering, dynamic sliders, user authentication, and ticket transactions — showcasing my fullstack skills and clean data handling.",
+        "I built a movie ticket app with Vue.js and Express.js, featuring ticket booking, genre filtering, and admin tools. It highlights my fullstack skills in responsive UI, authentication, and clean data flow.",
     },
     {
       id: 3,
@@ -115,7 +115,7 @@ const ProjectsPage = () => {
       tags: ["frontend", "ecommerce"],
       link: "https://github.com/furstinvia/PBKK-Laravel-Project/tree/main/tugas6",
       detailed:
-        "I built a fictional e-commerce platform using Vue.js to simulate an IKEA-style store, featuring product listings, a shopping cart, and curated sections. As the frontend developer, I focused on reusable components, clean layouts, and responsive design for seamless navigation. This project showcases my ability to create engaging, user-centered UIs with modern frameworks.",
+        "I built a fictional IKEA-style e-commerce site with Vue.js, featuring product listings, a cart, and curated sections. I focused on reusable components and responsive design, showcasing my frontend skills in building user-friendly UIs.",
     },
     {
       id: 4,
@@ -139,7 +139,7 @@ const ProjectsPage = () => {
       tags: ["web app", "frontend"],
       link: "https://sokofinancialedu.com",
       detailed:
-        "As the Frontend Developer, I built the Finance Calculator for the Soko Financial website, including core pages like Dashboard, Budget Input, and PDF Export. I implemented dynamic forms and real-time calculations for a smooth user experience, using Laravel Blade for performance and responsiveness across devices. This tool helps users track and compare finances, simplifying budgeting goals.",
+        "I developed the Finance Calculator for Soko Financial, building key pages and real-time features using Laravel Blade. With dynamic forms and responsive design, the tool simplifies budgeting by helping users track and compare their finances.",
     },
     {
       id: 6,
@@ -151,7 +151,7 @@ const ProjectsPage = () => {
       tags: ["fullstack", "web app", "recipe platform"],
       link: "https://github.com/furstinvia/PBKK-Powerpuff-Recipe-App.git",
       detailed:
-        "I developed Powerpuff Recipe as a fullstack app using Next.js, TypeScript, and MySQL. Users can browse, favorite, and search recipes, while admins manage content through a dashboard. I implemented server-side rendering, dynamic routing, and CRUD functionality, with a responsive dark theme styled using Tailwind CSS.",
+        "I built Powerpuff Recipe as a fullstack app with Next.js, TypeScript, and MySQL. It features recipe browsing, favorites, admin CRUD, and a responsive dark UI styled with Tailwind CSS.",
     },
   ];
 
