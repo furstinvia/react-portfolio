@@ -184,7 +184,7 @@ const AboutPage = () => {
                 className="text-gray-700 mb-4 about-particle opacity-0 transform translate-y-6 transition-all duration-1000"
                 style={{ transitionDelay: "200ms" }}
               >
-                I’m a 6th-semester student in Informatics Engineering at ITS
+                I’m a 7th-semester student in Informatics Engineering at ITS
                 Surabaya with a strong passion for{" "}
                 <span className="text-rose-600 font-medium">
                   Frontend development.

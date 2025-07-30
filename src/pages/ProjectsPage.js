@@ -85,8 +85,8 @@ const ProjectsPage = () => {
       id: 1,
       title: "IKEA Web System",
       description:
-        "A fully functional web-based IKEA store system with intuitive dashboards for both cashier and admin roles.",
-      image: "/images/ikeaweb.jpg",
+        "A Laravel-based app with cashier and admin dashboards for store management.",
+      image: "/images/2.png",
       technologies: ["Laravel", "Bootstrap", "MySQL", "PHP"],
       tags: ["web app", "fullstack"],
       link: "https://github.com/furstinvia/PBKK-Laravel-Project/tree/main/tugas5",
@@ -97,8 +97,8 @@ const ProjectsPage = () => {
       id: 2,
       title: "Movie Ticket Platform",
       description:
-        "A modern and responsive movie ticket booking platform with a dynamic user flow and admin dashboard.",
-      image: "/images/film.jpg",
+        "A fullstack ticket booking platform with user and admin features.",
+      image: "/images/3.png",
       technologies: ["Vue.js", "Express.js", "MySQL"],
       tags: ["web app", "fullstack", "ticketing system"],
       link: "https://github.com/furstinvia/PBKK-Express.git",
@@ -109,8 +109,8 @@ const ProjectsPage = () => {
       id: 3,
       title: "IKEA-Inspired E-Commerce Platform",
       description:
-        "A fictional IKEA-style e-commerce site built with Vue.js, featuring curated product sections and a responsive shopping experience.",
-      image: "/images/ikea.jpg",
+        "A fictional IKEA-style frontend store built with Vue.js.",
+      image: "/images/4.png",
       technologies: ["Vue.js", "Javascript", "CSS3", "HTML5"],
       tags: ["frontend", "ecommerce"],
       link: "https://github.com/furstinvia/PBKK-Laravel-Project/tree/main/tugas6",
@@ -121,8 +121,8 @@ const ProjectsPage = () => {
       id: 4,
       title: "ChefJuna - Recipe Mobile App",
       description:
-        "A mobile app for exploring healthy recipes with a modern interface, featuring search, calorie info, and price estimates.",
-      image: "/images/poster.jpg",
+        "A Kotlin-based Android app to explore and search healthy recipes.",
+      image: "/images/7.png",
       technologies: ["Kotlin", "Android Studio"],
       tags: ["Mobile App", "Android"],
       link: "https://github.com/furstinvia/Chef-Juna-RecipeApp",
@@ -131,10 +131,34 @@ const ProjectsPage = () => {
     },
     {
       id: 5,
+      title: "Kopra Buddies",
+      description:
+        "A Laravel-based web app to manage and simplify Kopra implementation schedules.",
+      image: "/images/8.png",
+      technologies: ["Laravel", "Tailwind CSS", "MySQL"],
+      tags: ["fullstack", "web app", "kopra"],
+      link: "https://github.com/furstinvia/Buddies.git",
+      detailed:
+    "I developed Kopra Buddies to simplify implementation scheduling in Kopra. Built with Laravel and MySQL, it includes automatic calendar generation, monitoring dashboard, and an intuitive interface for branches and implementors.",
+},
+    {
+      id: 6,
+      title: "Powerpuff Recipe App",
+      description:
+        "A fullstack recipe manager app built with Next.js and TypeScript.",
+      image: "/images/6.png",
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "MySQL"],
+      tags: ["fullstack", "web app", "recipe platform"],
+      link: "https://github.com/furstinvia/PBKK-Powerpuff-Recipe-App.git",
+      detailed:
+        "I built Powerpuff Recipe as a fullstack app with Next.js, TypeScript, and MySQL. It features recipe browsing, favorites, admin CRUD, and a responsive dark UI styled with Tailwind CSS.",
+    },
+    {
+      id: 7,
       title: "Website Soko Financial",
       description:
-        "I developed the Finance Calculator for the Soko Financial website, translating Figma designs into responsive, functional web pages using Laravel.",
-      image: "/images/soko.jpg",
+        "A Laravel site with interactive finance calculator and budgeting tools.",
+      image: "/images/5.png",
       technologies: ["Laravel", "Blade Templating", "CSS3", "JavaScript"],
       tags: ["web app", "frontend"],
       link: "https://sokofinancialedu.com",
@@ -142,16 +166,16 @@ const ProjectsPage = () => {
         "I developed the Finance Calculator for Soko Financial, building key pages and real-time features using Laravel Blade. With dynamic forms and responsive design, the tool simplifies budgeting by helping users track and compare their finances.",
     },
     {
-      id: 6,
-      title: "Powerpuff Recipe App",
+      id: 8,
+      title: "Starbucks Mobile App",
       description:
-        "A fullstack web app built with Next.js and TypeScript, Powerpuff Recipe allows users to explore, save, and manage cooking recipes with a dynamic, responsive interface.",
-      image: "/images/resep.jpg",
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "MySQL"],
-      tags: ["fullstack", "web app", "recipe platform"],
-      link: "https://github.com/furstinvia/PBKK-Powerpuff-Recipe-App.git",
+        "An Android app prototype inspired by Starbucks, built with Kotlin.",
+      image: "/images/9.png",
+      technologies: ["Kotlin", "Android Studio"],
+      tags: ["mobile app", "android"],
+      link: "https://github.com/furstinvia/ppb-d-11-starbucksapp.git",
       detailed:
-        "I built Powerpuff Recipe as a fullstack app with Next.js, TypeScript, and MySQL. It features recipe browsing, favorites, admin CRUD, and a responsive dark UI styled with Tailwind CSS.",
+        "I created a mobile app prototype that replicates key Starbucks app features using Kotlin in Android Studio. The app includes a splash screen and login/register flow — all designed with clean UI for practice in native Android development.",
     },
   ];
 
